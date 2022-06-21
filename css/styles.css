@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: sans-serif;
+}
+.header{
+    margin: 1.5rem auto;
+    width: 50%;
+}
+.text{
+    font-size: 1.5rem;
+    line-height: 25px;
+    margin-bottom: 0.75rem;
+    color: #b5b5b5;
+}
+.text strong{
+    font-weight: bold;
+    color: black;
+}
+.second-text{
+    font-size: 0.5rem;
+    color: #b5b5b5;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subcontainer1{
+    margin-right: 10px;
+}
+.subcontainer3{
+    margin-left: 10px;
+}
+.card{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+.hr1, .hr4, .hr2, .hr3{
+    width: 100%;
+    height: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+}
+.hr1, .hr4{
+    background-color: blueviolet;
+}
+.hr2{
+    
+    background-color: red;
+}
+.hr3{
+    background-color: orange;
+}
+.title{
+    padding-top: 1rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.paragh{
+    padding-bottom:.5rem ;
+    padding-left:.5rem ;
+    text-align: left
+    ;
+}
+.card i{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    transform: translateX(200%);
+    
+    
+}
+.fa-magnifying-glass, .fa-display{
+    color: blueviolet;
+}
+.fa-house{
+    color: red;
+}
+.fa-lightbulb{
+    color: orange;
+}
+@media screen and (max-width:640px) {
+    main{
+        height: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
